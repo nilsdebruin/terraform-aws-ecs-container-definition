@@ -71,7 +71,6 @@ locals {
     ulimits                = var.ulimits
     repositoryCredentials  = var.repository_credentials
     links                  = var.links
-    volumesFrom            = var.volumes_from
     user                   = local.user
     dependsOn              = var.container_depends_on
     privileged             = var.privileged
